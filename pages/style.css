@@ -157,3 +157,21 @@ background-size: cover;
     text-align: center;
     width: 100%;
 }
+.lowerBody{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#pfpimg{
+    width:40%;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+.upperBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}

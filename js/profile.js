@@ -21,7 +21,7 @@ const uid = localStorage.getItem("userId")
     const age = document.getElementById("age")
     const country = document.getElementById("country")
     const city = document.getElementById("city")
-
+const image = document.getElementById("image")
 
     // load function 
 
@@ -85,7 +85,7 @@ const editProfile = () =>{
     age.removeAttribute("disabled")
     country.removeAttribute("disabled")
     city.removeAttribute("disabled")
-
+    image.removeAttribute("disabled")
 
 
 }
